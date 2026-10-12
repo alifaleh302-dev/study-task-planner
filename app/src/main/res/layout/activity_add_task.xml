@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_task_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:hint="@string/field_title_hint"
+            android:inputType="text"
+            android:maxLines="2"
+            android:textColorHint="@color/textSecondary" />
+
+        <EditText
+            android:id="@+id/editDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:hint="@string/field_description_hint"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:gravity="top"
+            android:textColorHint="@color/textSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/field_due_date"
+            android:textColor="@color/textSecondary"
+            android:textSize="@dimen/text_small" />
+
+        <Button
+            android:id="@+id/buttonPickDate"
+            style="@style/AppButton"
+            android:layout_width="match_parent"
+            android:text="@string/pick_date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="@string/field_due_time"
+            android:textColor="@color/textSecondary"
+            android:textSize="@dimen/text_small" />
+
+        <Button
+            android:id="@+id/buttonPickTime"
+            style="@style/AppButton"
+            android:layout_width="match_parent"
+            android:text="@string/pick_time" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/field_category"
+            android:textColor="@color/textSecondary"
+            android:textSize="@dimen/text_small" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/field_priority"
+            android:textColor="@color/textSecondary"
+            android:textSize="@dimen/text_small" />
+
+        <RadioGroup
+            android:id="@+id/groupPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioPriorityLow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/priority_low" />
+
+            <RadioButton
+                android:id="@+id/radioPriorityMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/priority_medium" />
+
+            <RadioButton
+                android:id="@+id/radioPriorityHigh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/priority_high" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/field_reminder" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            style="@style/AppButton"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="@string/save_task" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="@style/AppButton"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:backgroundTint="@color/textSecondary"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</ScrollView>

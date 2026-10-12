@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark-mode palette. Used when the device (or the in-app setting) enables night mode. -->
+<resources>
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="textPrimary">#ECECEC</color>
+    <color name="textSecondary">#B0B0B0</color>
+</resources>

@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+build/
+/app/build/
+# Local SDK path, never committed
+local.properties
+# IDE
+.idea/
+*.iml
+.DS_Store
+# Keystore (never commit secrets)
+*.jks
+*.keystore

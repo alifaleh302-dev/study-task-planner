@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple graduation cap used on the splash and about screens. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,20 L110,42 L60,64 L10,42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 L30,74 C30,84 90,84 90,74 L90,52 L60,66 Z" />
+</vector>

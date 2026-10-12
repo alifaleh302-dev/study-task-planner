@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">منظم الدراسة والمهام</string>
+    <string name="app_tagline">خطط، أنجز، حقق أهدافك</string>
+    <string name="app_description">تطبيق محلي لتنظيم المهام الدراسية والشخصية ومتابعة إنجازها، يعمل دون اتصال بالإنترنت ويحفظ بياناتك على جهازك.</string>
+
+    <!-- عام -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="add">إضافة</string>
+    <string name="back">رجوع</string>
+    <string name="search">بحث</string>
+    <string name="no_tasks">لا توجد مهام حالياً</string>
+    <string name="no_results">لا توجد نتائج مطابقة</string>
+    <string name="required_field">هذا الحقل مطلوب</string>
+    <string name="task_saved">تم حفظ المهمة بنجاح</string>
+    <string name="task_updated">تم تحديث المهمة بنجاح</string>
+    <string name="task_deleted">تم حذف المهمة</string>
+    <string name="task_completed">تم تحديد المهمة كمكتملة</string>
+    <string name="task_uncompleted">تم إرجاع المهمة كغير مكتملة</string>
+    <string name="confirm_delete_title">تأكيد الحذف</string>
+    <string name="confirm_delete_message">هل أنت متأكد من حذف هذه المهمة؟ لا يمكن التراجع.</string>
+    <string name="category_added">تمت إضافة الفئة</string>
+    <string name="invalid_title">الرجاء إدخال عنوان المهمة</string>
+
+    <!-- شاشة البداية -->
+    <string name="splash_logo_desc">شعار التطبيق</string>
+
+    <!-- الشاشة الرئيسية -->
+    <string name="today_date">تاريخ اليوم</string>
+    <string name="summary_total">إجمالي المهام</string>
+    <string name="summary_completed">المهام المكتملة</string>
+    <string name="summary_pending">المهام المتبقية</string>
+    <string name="upcoming_tasks">المهام القادمة</string>
+    <string name="add_task">إضافة مهمة</string>
+    <string name="menu_all_tasks">جميع المهام</string>
+    <string name="menu_calendar">التقويم</string>
+    <string name="menu_categories">الفئات</string>
+    <string name="menu_search">البحث</string>
+    <string name="menu_statistics">الإحصائيات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="view_all">عرض الكل</string>
+
+    <!-- جميع المهام -->
+    <string name="all_tasks_title">جميع المهام</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_completed">المكتملة</string>
+    <string name="filter_pending">غير المكتملة</string>
+
+    <!-- إضافة / تعديل مهمة -->
+    <string name="add_task_title">إضافة مهمة</string>
+    <string name="edit_task_title">تعديل المهمة</string>
+    <string name="field_title">عنوان المهمة</string>
+    <string name="field_title_hint">اكتب عنوان المهمة</string>
+    <string name="field_description">الوصف</string>
+    <string name="field_description_hint">وصف اختياري للمهمة</string>
+    <string name="field_due_date">تاريخ الاستحقاق</string>
+    <string name="field_due_time">وقت الاستحقاق</string>
+    <string name="field_category">الفئة</string>
+    <string name="field_priority">الأولوية</string>
+    <string name="field_reminder">تفعيل التذكير</string>
+    <string name="pick_date">اختيار التاريخ</string>
+    <string name="pick_time">اختيار الوقت</string>
+    <string name="save_task">حفظ المهمة</string>
+    <string name="save_changes">حفظ التعديلات</string>
+
+    <!-- الأولوية -->
+    <string name="priority_low">منخفضة</string>
+    <string name="priority_medium">متوسطة</string>
+    <string name="priority_high">عالية</string>
+
+    <!-- تفاصيل المهمة -->
+    <string name="task_details_title">تفاصيل المهمة</string>
+    <string name="mark_completed">إكمال المهمة</string>
+    <string name="mark_uncompleted">إلغاء الإكمال</string>
+    <string name="status_completed">مكتملة</string>
+    <string name="status_pending">غير مكتملة</string>
+
+    <!-- التقويم -->
+    <string name="calendar_title">التقويم</string>
+    <string name="tasks_of_day">مهام اليوم المحدد</string>
+
+    <!-- الفئات -->
+    <string name="categories_title">الفئات</string>
+    <string name="add_category">إضافة فئة</string>
+    <string name="category_name_hint">اسم الفئة</string>
+    <string name="tasks_count">عدد المهام: %1$d</string>
+    <string name="category_tasks_title">مهام الفئة</string>
+    <string name="category_default_study">دراسة</string>
+    <string name="category_default_work">عمل</string>
+    <string name="category_default_personal">شخصي</string>
+    <string name="category_default_health">صحة</string>
+    <string name="category_default_other">أخرى</string>
+
+    <!-- البحث -->
+    <string name="search_title">البحث</string>
+    <string name="search_hint">ابحث بعنوان المهمة</string>
+    <string name="search_action">ابحث</string>
+    <string name="clear_search">مسح</string>
+
+    <!-- الإحصائيات -->
+    <string name="statistics_title">الإحصائيات</string>
+    <string name="stat_total">إجمالي المهام</string>
+    <string name="stat_completed">المهام المكتملة</string>
+    <string name="stat_pending">المهام غير المكتملة</string>
+    <string name="stat_progress">نسبة الإنجاز</string>
+    <string name="stat_by_category">توزيع المهام حسب الفئة</string>
+    <string name="progress_percent">%1$d%%</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_notifications">تفعيل الإشعارات</string>
+    <string name="settings_default_reminder">تفعيل التذكير افتراضياً للمهام الجديدة</string>
+    <string name="settings_dark_mode">المظهر الداكن</string>
+    <string name="settings_dark_mode_note">سيتم تطبيق المظهر الداكن عند تشغيل التطبيق في المرة القادمة.</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_version">إصدار التطبيق %1$s</string>
+
+    <!-- حول التطبيق -->
+    <string name="about_title">حول التطبيق</string>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_line">تطبيق محلي لتنظيم الدراسة والمهام اليومية.</string>
+
+    <!-- الإشعارات -->
+    <string name="notification_channel_name">تذكيرات المهام</string>
+    <string name="notification_channel_desc">إشعارات بتذكيرات المهام المقررة</string>
+    <string name="notification_title">تذكير بمهمة</string>
+    <string name="notification_due">موعد الاستحقاق: %1$s</string>
+</resources>

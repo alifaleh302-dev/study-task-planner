@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="card_corner">12dp</dimen>
+    <dimen name="text_title">22sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+</resources>
